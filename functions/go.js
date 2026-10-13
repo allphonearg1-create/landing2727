@@ -9,7 +9,7 @@
 //  - Timeout de 4 s a Apps Script (antes podía quedar colgado).
 
 const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL ||
-  'https://script.google.com/macros/s/AKfycbzp4-jFTeQiJrCr4Sdy2BYFP1fGU3H-OHTvmdVYowUtsr40Noi-jzYhIVFbtsyFRURy/exec';
+  'https://script.google.com/macros/s/AKfycbxJ8sW2XUPbdJgc49Vnev0K0sqt4J2Ym1rssHmdgW7_iftxz_Y-bmvLHOsKYGQH97_0dQ/exec';
 const FALLBACK_URL = process.env.FALLBACK_URL || '/';   // landing principal
 const TTL_MS = 5 * 60 * 1000;   // un cambio hecho en la PWA tarda hasta 5 min en reflejarse (a cambio, casi nadie espera a Apps Script)
 const TIMEOUT_MS = 8000;   // Apps Script puede tardar varios segundos en "arrancar en frío"
