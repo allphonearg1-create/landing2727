@@ -11,7 +11,7 @@
 //  - Nunca expone secretos: solo el Pixel ID (ya visible en la página) y el número del botón.
 
 const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL ||
-  'https://script.google.com/macros/s/AKfycbzp4-jFTeQiJrCr4Sdy2BYFP1fGU3H-OHTvmdVYowUtsr40Noi-jzYhIVFbtsyFRURy/exec';
+  'https://script.google.com/macros/s/AKfycbxJ8sW2XUPbdJgc49Vnev0K0sqt4J2Ym1rssHmdgW7_iftxz_Y-bmvLHOsKYGQH97_0dQ/exec';
 const TIMEOUT_MS = 6000;               // Netlify corta las funciones a los 10 s
 const PIXEL_RE = /^\d{10,20}$/;
 const WA_RE = /^549\d{10}$/;
